@@ -1,5 +1,10 @@
-num1 =  input("Enter a number: ")
-num2 = input("Enter another number: ")
+def calculator(num1, num2):
+    sum = num1 + num2
+    return sum
 
-result = int(num1) + int(num2)
+
+# num1 =  input("Enter a number: ")
+# num2 = input("Enter another number: ")
+
+result = calculator(2,5)
 print(result)
