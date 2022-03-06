@@ -8,3 +8,4 @@ def add(num1, num2):
 
 sum = add(22,35)
 print(sum)
+print(sum+1)
