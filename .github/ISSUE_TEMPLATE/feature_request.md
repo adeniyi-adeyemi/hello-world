@@ -1,9 +1,10 @@
 ---
 name: Feature request
 about: Suggest an idea for this project
-title: ''
-labels: ''
+title: 'test issue'
+labels: 'feature-request'
 assignees: ''
+project: 'Agama'
 
 ---
 
