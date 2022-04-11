@@ -4,7 +4,7 @@ about: Suggest an idea for this project
 title: 'test issue'
 labels: 'feature-request'
 assignees: ''
-project: 'Agama'
+projects: 'Agama'
 
 ---
 
