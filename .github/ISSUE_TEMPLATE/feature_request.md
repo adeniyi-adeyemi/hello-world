@@ -1,3 +1,17 @@
+---
+name: PPP Feature request (External Feedback)
+about: Potential feature requests from partners
+title: ''
+labels: 'feature-request'
+assignees: ''
+---
+
+# Partner Details
+A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
+
+# Summary
+A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
+
 **Is your feature request related to a problem? Please describe.**
 A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
 
