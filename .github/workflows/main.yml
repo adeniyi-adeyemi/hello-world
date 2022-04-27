@@ -14,5 +14,5 @@ jobs:
         with:
           project-url: https://github.com/users/adeniyi-adeyemi/projects/1
           github-token: ${{ secrets.ADD_TO_PROJECT_PAT }}
-          labeled: feature-request
+          labeled: "feature request"
           label-operator: OR
