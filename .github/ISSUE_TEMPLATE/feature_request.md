@@ -2,7 +2,7 @@
 name: PPP Feature request (External Feedback)
 about: Potential feature requests from partners
 title: ''
-labels: 'feature'
+labels: 'feature-request'
 assignees: ''
 ---
 
