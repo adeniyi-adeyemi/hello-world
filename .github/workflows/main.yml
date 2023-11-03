@@ -14,6 +14,7 @@ jobs:
         with:
           project-url: https://github.com/users/adeniyi-adeyemi/projects/1
           labeled: "feature request"
+          repo-token: "${{ secrets.GITHUB_TOKEN }}"
 
   add-to-bugboard:
     name: Add issue to bug board
@@ -23,3 +24,4 @@ jobs:
         with:
           project-url: https://github.com/users/adeniyi-adeyemi/projects/2
           labeled: "bug"
+          repo-token: "${{ secrets.GITHUB_TOKEN }}"
