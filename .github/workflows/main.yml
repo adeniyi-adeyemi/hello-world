@@ -12,9 +12,10 @@ jobs:
     steps:
       - uses: actions/add-to-project@main
         with:
+          app-id: ${{ secrets.418005 }}
+          private-key: ${{ secrets.SHA256:O1f+PeVFTYZVmO1naYEMcFlXSiWAFtFHE/mCF93N6RE= }}
           project-url: https://github.com/users/adeniyi-adeyemi/projects/1
           labeled: "feature request"
-          github-token: ${{ secrets.ADD_TO_PROJECT_PAT }}
 
   add-to-bugboard:
     name: Add issue to bug board
@@ -22,6 +23,8 @@ jobs:
     steps:
       - uses: actions/add-to-project@main
         with:
+          app-id: ${{ secrets.418005 }}
+          private-key: ${{ secrets.SHA256:O1f+PeVFTYZVmO1naYEMcFlXSiWAFtFHE/mCF93N6RE= }}
           project-url: https://github.com/users/adeniyi-adeyemi/projects/2
           labeled: "bug"
-          github-token: ${{ secrets.ADD_TO_PROJECT_PAT }}
+          github-token: ${{ secrets.ADD_TO_PROJECT }}
