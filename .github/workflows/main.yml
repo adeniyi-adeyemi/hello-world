@@ -13,7 +13,6 @@ jobs:
       - uses: actions/add-to-project@main
         with:
           project-url: https://github.com/users/adeniyi-adeyemi/projects/1
-          github-token: ${{ secrets.ADD_TO_PROJECT_PAT }}
           labeled: "feature request"
 
   add-to-bugboard:
@@ -23,5 +22,4 @@ jobs:
       - uses: actions/add-to-project@main
         with:
           project-url: https://github.com/users/adeniyi-adeyemi/projects/2
-          github-token: ${{ secrets.ADD_TO_PROJECT_PAT }}
           labeled: "bug"
