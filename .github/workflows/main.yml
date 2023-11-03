@@ -27,4 +27,3 @@ jobs:
           private-key: ${{ secrets.SHA256:O1f+PeVFTYZVmO1naYEMcFlXSiWAFtFHE/mCF93N6RE= }}
           project-url: https://github.com/users/adeniyi-adeyemi/projects/2
           labeled: "bug"
-          github-token: ${{ secrets.ADD_TO_PROJECT }}
